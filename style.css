@@ -1,0 +1,440 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.main{
+    background-image: url(./assets/images/bg.jpg);
+    height: 93vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px,100vw);
+    background-repeat: no-repeat;
+}
+.main .box{
+    height: 93vh;
+    width: 100%;
+    opacity: 0.6;
+    position:absolute;
+    top:0;
+    background-color: black;
+}
+nav{
+    max-width: 80vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 62px;
+    padding-top: 10px;
+}
+nav img{
+    color: red;
+    width: 9.25rem;
+    height: 2.5rem;
+    position: relative;
+    z-index: 10;
+    padding: 18px;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    display: flex;
+    height: calc(100% - 72px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1){
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.separation{
+    background-color: rgba(57, 55, 55, 0.795);
+    height: 7px;
+}
+.btn{
+    line-height: 1.25rem;
+    padding: 4px 20px;
+    filter: opacity(90%);
+    background: transparent;
+    color: #fff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+}
+.btn-si{
+    background-color: red;
+    color: white;
+    padding: 4px 16px;
+    cursor: pointer;
+}
+.btn-si:hover{
+    background-color: rgb(188, 13, 13);
+}
+.btn-red{
+    background-color:rgb(229, 9, 20);;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.25rem;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1.4;
+}
+.btn-red:hover{
+    background-color: rgb(188, 13, 13);
+}
+.main input{
+    padding: 15px 126px 17px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.5);
+    border-color: rgba(224, 215, 215, 0.5);
+    color: #fff;
+    line-height: 1.5;
+    
+}
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin: auto;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0px;
+    flex-wrap: wrap;
+    
+}
+.first-para{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.first-para #one{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.first-para #two{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.secimg{
+    position: relative;
+    left: 15px;
+}
+.secimg img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+    left: 40px;
+
+}
+.secimg video{
+    position: absolute;
+    top: 90px;
+    right: 0;
+    left: 118px;
+    width: 28vw;
+    
+}
+
+
+
+
+
+
+.second{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin: auto;
+    color: #fff;
+    align-items: center;
+    padding: 80px 0px;
+    
+}
+.second-para{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    max-width: 41vw;
+    padding-left: 60px;
+}
+.second-para #one{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.second-para #two{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.secimg-second{
+    position: relative;
+    left: -55px;
+}
+.secimg-second img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+    left: 88px;
+
+}
+
+
+
+
+
+
+.third{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin: auto;
+    color: #fff;
+    align-items: center;
+    padding: 80px 0px;
+    
+}
+.third-para{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.third-para #one{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.third-para #two{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.secimg-third{
+    position: relative;
+    left: 15px;
+}
+.secimg-third img{
+    width: 36vw;
+    height: 29vw;
+    position: relative;
+    z-index: 10;
+    left: 25px;
+
+}
+.secimg-third video{
+    position: absolute;
+    top: 49px;
+    left: 8vw;
+    width: 23vw;
+    
+}
+
+
+.fourth{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 80vw;
+    margin: auto;
+    color: #fff;
+    align-items: center;
+    padding: 80px 0px;
+    
+}
+.fourth-para{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    max-width: 41vw;
+    padding-left: 60px;
+}
+.fourth-para #one{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.fourth-para #two{
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.secimg-fourth{
+    position: relative;
+    left: -55px;
+}
+.secimg-fourth img{
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+    left: 88px;
+
+}
+.faq > h2{
+    color: #fff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.faqbox{
+    display: flex;
+    background-color: rgb(45, 45, 45);;
+    justify-content: space-between;
+    padding: 25px;
+    max-width: 70vw;
+    margin: 8px auto;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    padding: 24px;
+    transition: all 0.2s ease-out;
+}
+.faq svg{
+    color: #fff;
+}
+.faqbox:hover{
+    background-color:#414141 ;
+}
+
+.last{
+    display: flex;
+    height: calc(100% - 72px);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    text-align: center;
+    padding: 0 30px;
+    padding-bottom: 70px;
+}
+.last span{
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+.last input{
+    padding: 15px 126px 17px 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.5);
+    border-color: rgba(224, 215, 215, 0.5);
+    color: #fff;
+    line-height: 1.5;
+}
+footer{
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 60vw;
+    margin: auto;
+    color: white;
+    position: relative;
+    right: 142px;
+    column-gap: 36px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    width: 139px;
+}
+.footer a{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.questions{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 92px;
+    margin-bottom: -20px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.questions a{
+    color: rgba(255, 255, 255, 0.7);
+}
+select{
+    z-index: 20;
+    position: relative;
+    background: transparent;
+    color: #fff;
+}
+#language1{
+    padding: 5px 20px;
+}
+#language2{
+    padding: 5px 20px;
+}
+option:nth-child(1){
+    color: black;
+}
+option:nth-child(2){
+    color: black;
+}
+
+.netflixIndia p{
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.7);
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+.footer-last{
+    position: relative;
+    right: 92px;
+    top: -20px;
+}
+
+
+
+
